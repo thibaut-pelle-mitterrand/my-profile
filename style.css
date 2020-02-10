@@ -1,0 +1,73 @@
+body {
+background-color: #EFFAEC;
+color: rgb(40,40,40);
+font-family: helvetica
+font-size: 18px;
+}
+
+h1 {
+	color: rgb(211, 150,37);
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 45px
+}
+
+h2 {
+	color: rgb(126,138,119);
+	font-family: helvetica
+	font-size : 10px
+
+ }
+
+a{
+	text-decoration: none;
+	color: rgb(252,155,16);
+}
+
+a: hover {
+
+	color: red
+}
+
+p{
+	font-family: helvetica
+	text-align: justify;
+	font-size: 18px
+}
+
+#logo {
+	width: 160px; 
+	border-radius : 80px ;
+
+}
+
+.div-shape {
+	padding: 30px ;
+	background : #F9FAFA;
+	margin-top: 30px;
+	margin-bottom : 30px;
+	margin-left: 200px; 
+	margin-right: 200px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3) ;
+	text-align: center ;
+	border-radius: 5px;
+}
+.text-leftalign {
+	text-align: left;
+	font-family: helvetica-narrow, sans-serif ;
+}
+.fab {
+	font-size: 45px;
+	color: #454645;
+}
+@media (max-width: 760px) {
+	.div-shape {
+		width: 600px
+	}
+}
+
+@media (max-width: 500px) {
+	.div-shape {
+		width: 400px}
+}
+
